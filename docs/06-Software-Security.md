@@ -5,7 +5,7 @@ Overview of section contents:
 | Section                                       | Description                                                  |
 | --------------------------------------------- | ------------------------------------------------------------ |
 | Enforce security of sensitive data            | Use vault-like solutions to store sensitive data, such as passwords, security tokens. |
-| Enforce security of continuous integration    | ways to prevent from leaking sensitive information when using Git, such as passwords, tokens. |
+| Enforce security of continuous integration    | ways to prevent the leaking of sensitive information when using Git, such as passwords, tokens. |
 | Enforce security of the continuous deployment | Measurements to perform even when the CD tools may have failed to automatically remove the credentials |
 | Security scans                                | Security scan to avoid vulnerabilities, particularly Python and Docker images |
 | Automatic tools                               | The automatic tools to improve software quality              |
@@ -16,7 +16,7 @@ This section contains some best practices to keep the NSDF software stack _safe 
 
 
 
-## Enforce security of sensitive data
+## Enforce Security of sensitive data
 
 The best approaches to store and share passwords, security tokens, sensitive information is:
 
@@ -29,7 +29,7 @@ To store sensitive data we suggest using a <u>vault-like solution</u> such as [C
 
 
 
-## Enforce security of Continuous Integration
+## Enforce Security of Continuous Integration
 
 Stealing passwords and tokens in a Git public repository can be as easy as running a single line command ([link](https://twitter.com/TomNomNom/status/1133345832688857095) from "Ethical Hacker") which dumps the contents of a repository's object database :
 
@@ -51,7 +51,7 @@ The best approaches for these kinds of security leaks are:
 
 
 
-## Enforce security of Continuous Deployment
+## Enforce Security of Continuous Deployment
 
 All CD tools automatically filter secure _environment variables and tokens r_emoving them from the \_build log_ and replacing them with some _obfuscated_ text. But, once a VM is booted and tests are running, all these tools have less control over what information utilities or add-ons can print to the VM’s standard output.
 
@@ -80,7 +80,7 @@ Possible countermeasures are:
 
 
 
-## Security scans
+## Security Scans
 
 NSDF must constantly check source code for the most exploited security **weaknesses and vulnerabilities** in software including the:
 

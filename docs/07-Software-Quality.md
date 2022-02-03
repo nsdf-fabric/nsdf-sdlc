@@ -1,3 +1,5 @@
+![](images/NSDF.png)
+
 # Software Quality
 
 Overview of section contents:

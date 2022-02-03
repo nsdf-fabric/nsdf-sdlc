@@ -1,6 +1,7 @@
+![](images/NSDF.png)
+
 # Introduction
 
-![](images/NSDF.png)
 
 The scope of this document is to create and document guidelines, norms, and procedures for the _software engineering_ aspects of development, evolution, and long-term operation of the NSDF software stack, in particular regarding::
 

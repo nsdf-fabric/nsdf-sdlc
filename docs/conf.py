@@ -11,12 +11,12 @@ source_suffix = [
 	'.md'
 ]
 
-project = u'NSDF Documents'
+project = u'NSDF Software Development Life Cycle (SDLC) Procedures'
 html_theme = "sphinx_rtd_theme"
 master_doc = 'index'
 
 html_static_path = ['_static']
-html_logo = 'images/NSDF.png'
+# html_logo = 'images/NSDF.png'
 html_theme_options = {
 	'logo_only': False,
 	'display_version': False,

@@ -1,3 +1,5 @@
+![](images/NSDF.png)
+
 # Continuous Monitoring
 
 Overview of section contents:

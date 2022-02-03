@@ -62,7 +62,7 @@ NSDF builds _Reliable Code_ by:
 -   Add a _staging/pre-production environment \_to be used for installing, configuring, migrating code before going to production. See the _“Kubernetes”\_ paragraph.
 -   Add monitoring and event logging to keep track of uptimes and failures. See the “_Continuous Monitoring_” paragraph for more details.
 
-Some services can benefit from making use of “Chaos Engineering” such as automated by ChaosMonkey ([https://netflix.github.io/chaosmonkey/](https://netflix.github.io/chaosmonkey/)) which randomly kills services instances so developers automated recovery procedures.
+Some services can benefit from making use of “Chaos Engineering” such as automated by ChaosMonkey ([https://netflix.github.io/chaosmonkey/](https://netflix.github.io/chaosmonkey/)) which randomly kills service instances so developers automate recovery procedures.
 
 
 

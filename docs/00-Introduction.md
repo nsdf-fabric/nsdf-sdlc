@@ -58,7 +58,7 @@ This document specifies the software development procedures for the NSDF project
 
 ## Software checklist
 
-In this section, we provide a short checklist for software projects, and the rest of this document elaborates on the various point in this list.
+In this section, we provide a short checklist for software projects, and the rest of this document elaborates on the various points in this list.
 
 The bare minimum that every NSDF software project should do is:
 

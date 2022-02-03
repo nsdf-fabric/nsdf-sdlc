@@ -13,7 +13,7 @@ Overview of section contents:
 
 ---
 
-> *Print statements are not suitable for testing.*  *They are just bad practices*
+> *Print statements are not suitable for testing.*  *They are just bad practices.*
 
 
 
@@ -186,6 +186,7 @@ import(
    “errors”
    “testing”
    “github.com/stretchr/testify/require”
+)
 func TestQueryDataset(t *testing.T) {
     x := 5
     // Two ways to test with and without testify

@@ -44,9 +44,9 @@ To sum up, the major benefits of CD are:
 
 NSDF will:
 
-- first implement _Continuous Delivery \_by adding libraries or container images to an Artifact Registry_, allowing stakeholders/research scientists/partners to install binaries and start experiments with them.
+- First implement _Continuous Delivery \_by adding libraries or container images to an Artifact Registry_, allowing stakeholders/research scientists/partners to install binaries and start experiments with them.
 
-- in the second phase of the pilot, since ssh-ing into a cluster and running commands is an unsustainable and error-prone practice, we will gradually introduce a full-fledged \_deployment \_on multi-regional lightweight Kubernetes clusters.
+- In the second phase of the pilot, since ssh-ing into a cluster and running commands is an unsustainable and error-prone practice, we will gradually introduce a full-fledged \_deployment \_on multi-regional lightweight Kubernetes clusters.
 
   
 
@@ -83,7 +83,7 @@ We have several choices to deploy NSDF applications to the cloud:
 
 For the NSDF pilot the:
 
-- **IaaS approach is admitted**. But NSDF is cloud-agnostic with no special preferences for commercial solutions. In general, we prefer to install orchestration tools on top computing instances.
+- **IaaS approach is admitted**. But NSDF is cloud-agnostic with no special preferences for commercial solutions. In general, we prefer to install orchestration tools on top of computing instances.
 
 - **SaaS/PaaS approach is discouraged**: most of the time they are \_vendor-lock-in_ and _pay-per-use_ solutions. An exception is made for the *Function As a Service* (FaaS), a subset of PaaS, but only limited to open-source projects (e.g. OpenFaaS, Kubeless, OpenWhisk, etc. see See [A (Very!) Quick Comparison of Kubernetes Serverless Frameworks – VSHN AG](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks/) )
 
@@ -98,9 +98,7 @@ For the NSDF pilot the:
 
 ## Artifacts Repositories
 
-
-
-Software releases should be made available through an _Artifacts Repository Manager_, defined on Wikipedia as:
+Software releases should be made available through an _Artifacts Repository Manager_, as defined on Wikipedia as:
 
 > …a software tool designed to optimize the download and storage of binary files used and produced in software development. It centralizes the management of all the binary artifacts generated and used by the organization to overcome the complexity arising from the diversity of binary artifact types, their position in the overall workflow, and the dependencies between them.
 
